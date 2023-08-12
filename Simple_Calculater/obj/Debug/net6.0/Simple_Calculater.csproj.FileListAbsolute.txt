@@ -1,0 +1,14 @@
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\bin\Debug\net6.0\Simple_Calculater.exe
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\bin\Debug\net6.0\Simple_Calculater.deps.json
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\bin\Debug\net6.0\Simple_Calculater.runtimeconfig.json
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\bin\Debug\net6.0\Simple_Calculater.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\bin\Debug\net6.0\Simple_Calculater.pdb
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.AssemblyInfoInputs.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.AssemblyInfo.cs
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.csproj.CoreCompileInputs.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\refint\Simple_Calculater.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.pdb
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\Simple_Calculater.genruntimeconfig.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_Calculater\obj\Debug\net6.0\ref\Simple_Calculater.dll
