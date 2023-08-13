@@ -1,0 +1,14 @@
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\bin\Debug\net6.0\Simple_MadLib.exe
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\bin\Debug\net6.0\Simple_MadLib.deps.json
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\bin\Debug\net6.0\Simple_MadLib.runtimeconfig.json
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\bin\Debug\net6.0\Simple_MadLib.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\bin\Debug\net6.0\Simple_MadLib.pdb
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.AssemblyInfoInputs.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.AssemblyInfo.cs
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.csproj.CoreCompileInputs.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\refint\Simple_MadLib.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.pdb
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\Simple_MadLib.genruntimeconfig.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\Simple_MadLib\obj\Debug\net6.0\ref\Simple_MadLib.dll
