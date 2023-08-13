@@ -1,0 +1,14 @@
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\bin\Debug\net6.0\SwitchStatements.exe
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\bin\Debug\net6.0\SwitchStatements.deps.json
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\bin\Debug\net6.0\SwitchStatements.runtimeconfig.json
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\bin\Debug\net6.0\SwitchStatements.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\bin\Debug\net6.0\SwitchStatements.pdb
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.AssemblyInfoInputs.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.AssemblyInfo.cs
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.csproj.CoreCompileInputs.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\refint\SwitchStatements.dll
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.pdb
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\SwitchStatements.genruntimeconfig.cache
+C:\Users\SUFIYAN\Desktop\BCS\Study material\Learning C#\SwitchStatements\obj\Debug\net6.0\ref\SwitchStatements.dll
