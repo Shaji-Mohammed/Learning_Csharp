@@ -47,7 +47,7 @@
         }
         if (correctAns)
         {
-            Console.WriteLine("You win!!!!");
+            Console.WriteLine("You win 5 Schrute bucks!!!!");
         } else
         {
             Console.WriteLine("You can try again....");
