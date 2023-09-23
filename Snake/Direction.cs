@@ -18,9 +18,9 @@ namespace Snake
             ColOffset = colOffSet;
         }
 
-        public Direction Opposite(int rowOffset, int colOffset)
+        public Direction Opposite()
         {
-            return new Direction(-rowOffset, -ColOffset);
+            return new Direction(-RowOffset, -ColOffset);
         }
 
         public override bool Equals(object obj)
