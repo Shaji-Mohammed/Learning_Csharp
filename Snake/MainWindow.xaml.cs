@@ -84,6 +84,8 @@ namespace Snake
             await Countdown();
             Overlay.Visibility = Visibility.Hidden;
             await GameLoop();
+            await ShowGameOver();
+            gameState = new GameState(rows, cols);
         }
 
         private async Task Countdown()
@@ -103,6 +105,13 @@ namespace Snake
                 gameState.Move();
                 Draw();
             }
+        }
+
+        private async Task ShowGameOver()
+        {
+            await Task.Delay(1000);
+            Overlay.Visibility = Visibility.Visible;
+            OverlayText.Text = "PRESS ANY KEY TO START";
         }
 
         private Image[,] SetupGrid()
@@ -134,9 +143,7 @@ namespace Snake
         {
             DrawGrid();
             ScoreText.Text = $"SCORE - {gameState.Score}";
-        }
-
-        
+        }        
 
         private void DrawGrid()
         {
