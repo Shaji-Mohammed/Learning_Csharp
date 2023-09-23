@@ -81,8 +81,18 @@ namespace Snake
         private async  Task RunGame()
         {
             Draw();
+            await Countdown();
             Overlay.Visibility = Visibility.Hidden;
             await GameLoop();
+        }
+
+        private async Task Countdown()
+        {
+            for (int i = 3; i >= 1 ; i--) 
+            {
+                OverlayText.Text = i.ToString();
+                await Task.Delay(500);
+            }
         }
 
         private async Task GameLoop()
