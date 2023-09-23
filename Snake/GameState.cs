@@ -8,7 +8,7 @@ namespace Snake
         public int Row { get; }
         public int Column { get; }
         public GridValue[,] Grid { get; }
-        public Direction Direction { get; private set; }
+        public Direction Dir { get; private set; }
         public int Score { get; private set; }
         public bool GameOver { get; private set; }
 
@@ -21,7 +21,7 @@ namespace Snake
             Row = row;
             Column= col;
             Grid = new GridValue[Row, Column];
-            Direction = Direction.Right;
+            Dir = Direction.Right;
 
             AddSnake();
             AddFood();
@@ -69,8 +69,75 @@ namespace Snake
         public Position HeadPosition()
         {
             return snakePosition.First.Value;
-}
+        }
+
+        public Position TailPosition() { 
+            return snakePosition.Last.Value;
+        }
 
 
+        public IEnumerable<Position> SnakePositions()
+        {
+            return snakePosition;
+        }
+
+        public void AddHead(Position pos)
+        {
+            snakePosition.AddFirst(pos);
+            Grid[pos.Row, pos.Colm] = GridValue.Snake;
+        }
+
+        public void RemoveTail()
+        {
+            Position tail = snakePosition.Last.Value;
+            Grid[tail.Row, tail.Colm] = GridValue.Empty;
+            snakePosition.RemoveLast();
+        }
+
+        public void ChangeDirection(Direction dir)
+        {
+            Dir = dir;
+        }
+
+        public bool OutsideGrid(Position pos)
+        {
+            return pos.Row < 0 || pos.Row >= Row || pos.Colm < 0|| pos.Colm >= Column;
+        }
+
+        public GridValue WillHit(Position newHeadPos)
+        {
+            if (OutsideGrid(newHeadPos))
+            {
+                return GridValue.Outside;
+            }
+            if (newHeadPos == TailPosition())
+            {
+                return GridValue.Empty;
+            }
+
+            return Grid[newHeadPos.Row, newHeadPos.Colm];   
+        }
+
+        public void Move()
+        {
+            Position newHeadPos = HeadPosition().Translate(Dir);
+            GridValue hit = WillHit(newHeadPos);
+
+            if ( hit == GridValue.Outside || hit == GridValue.Snake)
+            {
+                GameOver = true;
+            }
+             else if (hit ==  GridValue.Empty)
+            {
+                RemoveTail();
+                AddHead(newHeadPos);
+            }
+            else if (hit == GridValue.Food)
+            {
+                AddHead(newHeadPos);
+                Score++;
+                AddFood();
+            }
+        }
     }
 }
